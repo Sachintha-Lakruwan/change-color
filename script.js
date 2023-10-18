@@ -1,7 +1,7 @@
 const colors = ['a', 'b', 'c', 'd']
-let audio = new Audio('vine-boom.mp3');
 
 $('.button').click(function(evt){
+    let audio = new Audio('vine-boom.mp3');
     audio.play();
     let clicked_button = evt.target.id
     if ($('#'+clicked_button).hasClass('hovered')){
