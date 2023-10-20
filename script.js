@@ -1,5 +1,7 @@
 const colors = ['a', 'b', 'c', 'd']
 //comments added
+//comments added
+//comments added
 
 $('.button').click(function(evt){
     let audio = new Audio('vine-boom.mp3');
